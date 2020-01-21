@@ -107,16 +107,22 @@ body {
 
 }
 
-.footer{
-    bottom: 0;
-    font-size: 10pt;
-    height: 35px;
-    position: fixed;
-    width: 100%;
-    color:rgba(0,0,0,.54);
-    padding-left:27px;
-    margin-left: 30px;
-    text-align:left
+#footer{
+    position: absolute;
+bottom:0;
+height:60px;
+width:100%;
+background-color:#f2f2f2;
+clear:both;
+display:block;
+border-top: 1px solid #e4e4e4;
+}
+
+#footerl{
+    width:300px;
+    left:0;
+    /*background-color:blue;*/
+    display: inline-block;
 }
 
 
